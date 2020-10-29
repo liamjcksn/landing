@@ -1,0 +1,91 @@
+/* Your card CSS file */
+.card-category {
+  height: 170px;
+  display: flex;
+  justify-content: center;
+  background-size: cover;
+  align-items: center;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  margin: 20px;
+}
+
+.card-category h2 {
+  color: white;
+  font-weight: bolder;
+  text-align: center;
+  text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.7);
+}
+
+.card-product {
+  height: 120px;
+  display: flex;
+  justify-content: flex-start;
+  margin: 20px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+}
+
+.product-desc {
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.product-desc h3 {
+  color: black;
+  font-size: 16px;
+  font-weight: bolder;
+  margin: 5px 0;
+}
+
+.product-desc p {
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 12px;
+  margin: 5px 0;
+}
+
+.product-img {
+  width: 140px;
+  object-fit: cover;
+}
+
+.card-trip {
+  height: 240px;
+  margin: 20px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+}
+
+.trip-img {
+  width: 100%;
+  object-fit: cover;
+  height: 70%;
+}
+
+.trip-text {
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.trip-desc {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+
+.trip-desc h3 {
+  color: black;
+  font-size: 16px;
+  font-weight: bolder;
+  margin: 5px 0;
+}
+
+.trip-desc p {
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 12px;
+  margin: 0px 0;
+}

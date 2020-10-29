@@ -1,0 +1,149 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:700');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+
+@import url("components/cards.css");
+
+@import url("components/buttons.css");
+/* Utilities */
+body, h4 {
+  margin: 0;
+  font-family: Open Sans;
+}
+
+h1, h2, h3, h5, h6 {
+  font-family: Poppins;
+}
+
+h4 {
+  margin: 20px;
+  opacity: 0.6;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Custom design below! */
+
+.list-inline > h6 {
+  padding: 0px 20px;
+  font-size: 30px;
+  text-align: center;
+  margin: 0;
+}
+
+.list-inline > h6 > a {
+  color: rgba(255, 255, 255, 0.2);
+}
+
+.list-inline > h6 > a:hover {
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.list-inline {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: auto;
+}
+
+.banner {
+  background-image: url('../images/background.png');
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  height: 100vh;
+  margin-bottom: 50px;
+}
+
+.container {
+  width: 60vw;
+  margin: 0 auto;
+}
+
+.banner > .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.banner > .container > p {
+  color: rgba(255, 255, 255, 0.7);
+  margin: 15px 0;
+  font-size: 18px;
+}
+
+.banner > .container > h1 {
+  font-size: 90px;
+  margin: 20px 0;
+  color: white;
+  line-height: 1.1em;
+}
+
+h2, h3 {
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 30px;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.card {
+  width: 18vw;
+  display: flex;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  justify-content: flex-start;
+  align-content: center;
+  flex-direction: column;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card h3 {
+  color: black;
+  font-size: 16px;
+  font-weight: bolder;
+  margin: 0 0;
+}
+
+.card p {
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 16px;
+  margin-top: 15px;
+  margin-bottom: 35px;
+  text-align: center;
+}
+
+.card img {
+  object-fit: contain;
+  height: 10vw;
+  width: 10vw;
+  margin: 10px auto;
+}
+
+.footer {
+  background-color: rgba(0, 0, 0, 1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  margin-top: 80px;
+  height: 45vh;
+}
+
+h4 {
+  text-align: center;
+  color: white;
+  font-weight: lighter;
+}
